@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="people" defaultIdMethod="native">
+	<table name="people" phpName="Person">
+		<column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+		<column name="name" type="char" size="32" required="true" />
+		<column name="email" type="char" size="48" required="true" />
+		<column name="score" type="integer" required="true" />
+		<index name="people_name">
+			<index-column name="name" />
+		</index>
+		<index name="people_score">
+			<index-column name="score" />
+		</index>
+	</table>
+</database>
