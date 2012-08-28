@@ -26,3 +26,9 @@ The tests should be run on an in-memory SQLite database to have a common
 baseline. To create a new test, create a folder for it and copy `example.php`
 into that folder. Edit and name either `direct.php` or `orm.php`, depending
 on the type of database abstraction layer used.
+
+## To do
+
+* Add [ADOdb](http://adodb.sourceforge.net/)
+* Add [RedBean](http://redbeanphp.com/)
+* Add [Zend Framework](http://framework.zend.com/manual/en/zend.db.html)
