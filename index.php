@@ -11,6 +11,10 @@ echo '<ul>';
 $files = glob ('*/*.php');
 
 foreach ($files as $file) {
+	if (strpos ($file, 'lib/') === 0) {
+		continue;
+	}
+
 	printf (
 		'<li><a href="%s" target="_blank">%s - %s</a> (<a href="src.php?lib=%s&file=%s" target="_blank">src</a>)</li>',
 		$file,
