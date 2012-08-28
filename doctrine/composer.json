@@ -1,0 +1,6 @@
+{
+	"require":
+	{
+		"doctrine/orm": "2.2.2"
+	}
+}
