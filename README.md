@@ -14,11 +14,23 @@ The tests run through the following steps:
 1. Require your database libraries
 2. Connect to your database
 3. Create a basic database schema
-4. Insert 1,000 records
-5. Count records over 10 queries
+4. Insert 1,000 records with transactions
+5. Count all records broken into 10 queries
 6. Fetch top 50 records
 7. Perform 50 updates
 8. Perform 50 deletes
+
+Any test is flawed and this is no exception, but this does show all of the
+basic uses and gives a sense of how well each library performs at them.
+
+## Frameworks tested
+
+* [PDO](http://www.php.net/pdo)
+* [Doctrine 2](http://www.doctrine-project.org/) DBAL and ORM
+* [Elefant CMS](http://www.elefantcms.com/) DB and Model
+* [Idiorm and Paris](http://j4mie.github.com/idiormandparis/)
+* [Propel ORM](http://www.propelorm.org/)
+* [Zend_Db](http://framework.zend.com/manual/en/zend.db.html)
 
 ## Creating new tests
 
