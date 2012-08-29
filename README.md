@@ -30,6 +30,7 @@ basic uses and gives a sense of how well each library performs at them.
 * [Elefant CMS](http://www.elefantcms.com/) DB and Model
 * [Idiorm and Paris](http://j4mie.github.com/idiormandparis/)
 * [Propel ORM](http://www.propelorm.org/)
+* [RedBean](http://redbeanphp.com/)
 * [Zend_Db](http://framework.zend.com/manual/en/zend.db.html)
 
 ## Creating new tests
@@ -42,5 +43,3 @@ on the type of database abstraction layer used.
 ## To do
 
 * Add [ADOdb](http://adodb.sourceforge.net/)
-* Add [RedBean](http://redbeanphp.com/)
-* Add [Zend Framework](http://framework.zend.com/manual/en/zend.db.html)
