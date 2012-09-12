@@ -39,3 +39,15 @@ The tests should be run on an in-memory SQLite database to have a common
 baseline. To create a new test, create a folder for it and copy `example.php`
 into that folder. Edit and name either `direct.php` or `orm.php`, depending
 on the type of database abstraction layer used.
+
+## Results
+
+I ran the tests on an iMac with 3.06 GHz Intel Core 2 Duo with 8 GB RAM
+running PHP 5.3.10 with APC enabled and Apache 2.2.21. Here are the numbers
+and charts of the execution time and memory usage breakdown:
+
+![PHP Database Library Benchmarks - Numbers](https://github.com/jbroadway/php-dbal-bench/blob/master/results/php-dbal-benchmarks-numbers.png)
+
+![PHP Database Library Benchmarks - Execution Time](https://github.com/jbroadway/php-dbal-bench/blob/master/results/php-dbal-benchmarks-execution-time.png)
+
+![PHP Database Library Benchmarks - Memory Usage](https://github.com/jbroadway/php-dbal-bench/blob/master/results/php-dbal-benchmarks-memory-usage.png)
