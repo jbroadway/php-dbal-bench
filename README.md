@@ -44,7 +44,8 @@ on the type of database abstraction layer used.
 
 I ran the tests on an iMac with 3.06 GHz Intel Core 2 Duo with 8 GB RAM
 running PHP 5.3.10 with APC enabled and Apache 2.2.21. Here are the numbers
-and charts of the execution time and memory usage breakdown:
+and charts of the execution time and memory usage breakdown (click each graphic
+to view it in full size):
 
 ![PHP Database Library Benchmarks - Numbers](https://raw.github.com/jbroadway/php-dbal-bench/master/results/php-dbal-benchmarks-numbers.png)
 
